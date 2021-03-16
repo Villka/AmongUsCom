@@ -1,0 +1,33 @@
+$maxWidth: 1780;
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+  @media (max-width: 767px) {
+    font-size: calc(
+      #{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxWidth})
+    );
+  }
+  @media (min-width: 767px) {
+    font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxWidth}));
+  }
+}
+
+.menu_left {
+  flex: 1 1 auto;
+  margin-right: 30px;
+  max-width: 300px;
+  color: rgb(133, 137, 151);
+  &__row {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  &__svg {
+    opacity: 0;
+  }
+}
+
+//connecting media
+@import "media";
+//connecting media

@@ -1,0 +1,33 @@
+//media
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+    .menu_left {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 680px) {
+    .menu_left {
+        max-width: 100%;
+        margin: 0px 0px 10px 0px;
+        &__row {
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+    }
+}
+
+
+@media (max-width: 520px) {
+    .menu_left {
+
+    }
+}
+//media

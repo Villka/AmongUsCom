@@ -1,0 +1,22 @@
+.header {
+  &__avatar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+// header
+
+//connecting media
+@import "../../media.scss";
+//connecting media

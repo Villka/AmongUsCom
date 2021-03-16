@@ -1,0 +1,95 @@
+.my_modal {
+    padding: 20px;
+    font-size: 24px;
+    background-color: rgb(66, 51, 66);
+    color: white;
+
+    p {
+      padding: 12px;
+    }
+
+    .room_code {
+      transition: all 0.1s ease-out;
+      .accept {
+        width: 200px;
+        margin-left: auto;
+        //margin-right: 10px;
+        margin-top: 10px;
+
+        .default {
+          background-color: rgb(218, 218, 218);
+        }
+        .cool {
+          background-color: rgb(131, 31, 126);
+          color: white;
+          transition: all 0.2s ease-out;
+          &:hover {
+            //color: rgb(158, 70, 70);
+            font-weight: bold;
+            background-color: rgb(151, 41, 146);
+            transition: all 0.1s ease-out;
+          }
+        }
+
+        p {
+          color: rgb(0, 0, 0);
+          border-radius: 5px;
+          text-align: center;
+          //padding-top: 30px;
+          //padding-right: 20px;
+          //padding-left: 10px;
+          //margin-left: auto;
+          //text-align: right;
+          vertical-align: middle;
+        }
+      }
+    }
+  
+    .list {
+      margin: 10px;
+      display: block;
+      padding: 10px;
+      border-radius: 10px;
+      //border-color: rgb(0, 0, 0);
+      background-color: rgb(94, 94, 126);
+      color: white;
+    }
+
+    input {
+      font-size: 20px;
+      padding: 5px;
+      margin: 0 auto;
+    }
+  
+  }
+
+  .my_modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .my_modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .my_modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .my_modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }

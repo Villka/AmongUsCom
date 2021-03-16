@@ -1,0 +1,63 @@
+// moderator
+
+.moderator {
+    flex: 1 1 auto;
+    max-width: 100%;
+    min-width: 500px;
+    &__row {
+        display: flex;
+        flex-direction: column;
+        max-width: 1100px;
+        box-shadow: 0px 22px 35px 0px rgba(75, 75, 75, 0.15);
+        background-color: white;
+        border-radius: 30px;
+        margin-bottom: 30px;
+        max-height: 100%;
+        padding: 20px;
+    }
+    &__input {
+        margin: 20px 0px;
+    }
+    &__editNews {
+        height: 250px;
+        max-height: 500px;
+        resize: none;
+    }
+    &__title {
+        margin-left: 30px;
+        font-size: 18.75px;
+        color: rgb(45, 45, 45);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+      }
+    &__up {
+        margin-bottom: 30px;
+    }
+    &__content {
+        padding: 0px 40px 20px 40px;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    &__qwestions {
+        margin: 20px 0px 20px 0px;
+        display: flex;
+        flex-wrap:wrap;
+        max-width: 800px;
+    }
+    &__qwestion {
+        margin: 0px 80px 20px 0px
+    }
+}
+
+section {
+    margin:0px 20px 20px 20px; 
+}
+
+
+//connecting media
+@import "media";
+//connecting media
+
+// moderator

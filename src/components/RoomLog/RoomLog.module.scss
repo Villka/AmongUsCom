@@ -1,0 +1,16 @@
+.logs {
+    max-height: 300px;
+    //margin: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    .single {
+        margin: 5px;
+        padding: 7px;
+        background-color: rgb(221, 221, 221);
+        border-radius: 5px;
+        div {
+            display: inline;
+        }
+    }
+}

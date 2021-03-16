@@ -1,0 +1,182 @@
+$maxWidth: 1780;
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+  @media (max-width: 767px) {
+    font-size: calc(
+      #{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxWidth})
+    );
+  }
+  @media (min-width: 767px) {
+    font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxWidth}));
+  }
+}
+
+// header
+
+.header {
+  max-width: 100%;
+  padding: 40px 50px;
+
+  &__row {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+  }
+
+  &__logActiveBotton {
+    order: 1;
+  }
+
+  &__log_close {
+    order: 1;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    img {
+      width: 36px;
+      height: 36px;
+    }
+  
+  
+    &:hover .profileMenu {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &__menuRowSmall {
+    order: 2;
+    height: 70px;
+    flex: 1 1 auto;
+    display: none;
+  }
+  &__menuRow {
+    order: 2;
+    height: 70px;
+    flex: 1 1 auto;
+  }
+  &__menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__button {
+    // flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    margin: 0px 40px 0px 0px;
+    @include adaptiv-font(18, 18);
+    font-family: "Montserrat", serif;
+    color: #2d2d2d;
+    line-height: 1;
+    text-align: left;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+  .button_purple {
+    display: flex;
+    justify-content: center;
+  }
+  &__log {
+    order: 3;
+  }
+
+  &__log_row {
+    // margin-right: 25px;
+    width: 275px;
+    @include adaptiv-font(18, 18);
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    z-index: 6;
+  }
+
+  &__avatar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__nickname {
+    font-size: 14px;
+    height: 18px;
+    width: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  &__active_text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0px 0 30px;
+  }
+
+  &__amogs {
+    display: flex;
+    align-items: center;
+    span {
+      @include adaptiv-font(22, 13);
+      font-weight: bold;
+      margin-right: 5px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  &__bell {
+    margin-right: 20px;
+  }
+
+  &__notify {
+    .notify {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      position: absolute;
+      left: 190px;
+      top: 7px;
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+
+      p {
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+
+
+// header
+
+//connecting media
+@import "media";
+//connecting media
+
+

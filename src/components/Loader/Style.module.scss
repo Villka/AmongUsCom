@@ -1,0 +1,74 @@
+.fountainGMain{
+	position:relative;
+	width:234px;
+	height:28px;
+	margin:auto;
+}
+
+.fountainG{
+	position: absolute;;
+	// top:0;
+	background-color:rgb(238,232,242);
+	width:28px;
+	height:28px;
+	animation-name:bounce_fountainG;
+	animation-duration:1.165s;
+	animation-iteration-count:infinite;
+	animation-direction:normal;
+	transform:scale(.3);
+	border-radius:19px;
+}
+
+.fountainG_1{
+	left:0;
+	animation-delay:0.466s;
+}
+
+.fountainG_2{
+	left:29px;
+	animation-delay:0.5825s;
+}
+
+.fountainG_3{
+	left:58px;
+	animation-delay:0.699s;
+}
+
+.fountainG_4{
+	left:88px;
+	animation-delay:0.8155s;
+}
+
+.fountainG_5{
+	left:117px;
+	animation-delay:0.932s;
+}
+
+.fountainG_6{
+	left:146px;
+	animation-delay:1.0485s;
+}
+
+.fountainG_7{
+	left:175px;
+	animation-delay:1.165s;
+}
+
+.fountainG_8{
+	left:205px;
+	animation-delay:1.2915s;
+}
+
+
+
+@keyframes bounce_fountainG{
+	0%{
+	transform:scale(1);
+		background-color:rgba(108,89,230,0.97);
+	}
+
+	100%{
+	transform:scale(.3);
+		background-color:rgb(238,232,242);
+	}
+}

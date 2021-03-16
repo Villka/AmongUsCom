@@ -1,0 +1,41 @@
+//media
+@media (max-width: 1024px) {
+    .info {
+        padding: 25px 50px 0px 40px;
+    }
+
+}
+
+
+@media (max-width: 680px) {
+    .moderator {
+        min-width: 200px;
+        &__qwestion {
+            margin: 0px 0px 20px 0px;
+        }
+    }
+    .tabs {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .moderator {
+        &__content {
+            padding: 0px 10px 20px 10px;
+        }
+        &__button {
+        margin: 0px 10px 20px 0px;
+        }
+        &__qwestions {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            max-height: 100%;
+        }
+    }
+    .tabs {
+        padding: 10px;
+    }
+}
+//media
+

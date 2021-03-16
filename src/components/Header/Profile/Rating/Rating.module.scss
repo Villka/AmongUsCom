@@ -1,0 +1,23 @@
+.header {
+  max-width: 100%;
+  padding: 40px 80px;
+
+  &__amogs {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: 22px;
+      font-weight: bold;
+      margin-right: 2px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+//connecting media
+@import "../../media.scss";
+//connecting media

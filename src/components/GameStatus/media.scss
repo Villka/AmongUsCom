@@ -1,0 +1,20 @@
+@media (max-width: 765px)  {
+    .finished_title {
+        padding-top: 20px;
+    }
+    .strap {
+        padding: 0px 0px 20px 0px;
+        .gf_block {
+            margin: 0px;
+        }
+        .gf {
+            &__h2 {
+                max-width: 80vw;
+            }
+        }
+    }
+    
+    .loader {
+        margin: 30px auto;
+    }
+}

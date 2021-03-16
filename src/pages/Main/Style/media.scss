@@ -1,0 +1,78 @@
+//media
+
+@media (max-width: 1550px) {
+    .main {
+        &__bg {
+            left: 80vh;
+            top: 20vh;
+            img {
+                width: 600px;
+                height: 700px;
+              }
+        }
+    }
+}
+
+@media (max-width: 1230px) {
+    .main {
+        &__bg {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .main {
+
+    }
+}
+@media (max-width: 900px) {
+    .main {
+
+    }
+}
+
+@media (max-width: 660px) {
+    .top_buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
+    .main {
+        &__button {
+            margin-bottom: 30px ;
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .main {
+        padding: 0px 0px 0px 0px;
+        &__text {
+            padding: 0px 45px;
+        }
+    }
+    .pros {
+        justify-content: flex-start;
+        margin: 0px 20px 0px 10px;
+        p {
+            font-size: 15px;
+        }
+        &__big {
+            margin: 5px;
+            h3 {
+            font-size: 30px;
+            }
+            img {
+                display: none;
+            }
+        }
+    }
+    .among_app_button {
+        font-size: 18px;
+    }
+}
+
+//media

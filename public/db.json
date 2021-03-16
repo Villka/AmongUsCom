@@ -1,0 +1,557 @@
+{
+  "News": {
+    "pages": {
+      "id":"1",
+      "post":{
+        "id": "1",
+        "title":"",
+        "text":""
+      }
+    }
+  },
+  "maps": [
+    {
+      "moderator": {
+        "name": ".пикапика",
+        "avatar": "https://cdn.discordapp.com/avatars/311954767691907072/a_9f9913aa9c50ac01d2df944b48f19efd.png?size=4096"
+      },
+      "id": "1",
+      "code": "FGAGAT",
+      "imposters": ["discord_id", "discord_id"],
+      "server": "EUROPE",
+      "players": [
+        {
+          "id": "1",
+          "name": "Villka",
+          "avatar": "https://cdn.discordapp.com/avatars/294844815206514689/41a2e3b29d9b00d28ca5a3c30dad41c9.png?size=128",
+          "games": 20,
+          "winrate": "0%",
+          "imposter": 1,
+          "among": 400
+        },
+        {
+          "id": "2",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "3",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "4",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "5",
+          "name": "Villka",
+          "avatar": "https://cdn.discordapp.com/avatars/294844815206514689/41a2e3b29d9b00d28ca5a3c30dad41c9.png?size=128",
+          "games": 20,
+          "winrate": "0%",
+          "imposter": 1,
+          "among": 400
+        },
+        {
+          "id": "6",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "7",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "8",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "9",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "10",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        }
+      ]
+    },
+    {
+      "moderator": {
+        "name": ".пикапика",
+        "avatar": "https://cdn.discordapp.com/avatars/311954767691907072/a_9f9913aa9c50ac01d2df944b48f19efd.png?size=4096"
+      },
+      "id": "2",
+      "code": "FGAGAT",
+      "imposters": ["discord_id", "discord_id"],
+      "server": "EUROPE",
+      "players": [
+        {
+          "id": "1",
+          "name": "Villka",
+          "avatar": "https://cdn.discordapp.com/avatars/294844815206514689/41a2e3b29d9b00d28ca5a3c30dad41c9.png?size=128",
+          "games": 20,
+          "winrate": "0%",
+          "imposter": 1,
+          "among": 400
+        },
+        {
+          "id": "2",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "3",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "4",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "5",
+          "name": "Villka",
+          "avatar": "https://cdn.discordapp.com/avatars/294844815206514689/41a2e3b29d9b00d28ca5a3c30dad41c9.png?size=128",
+          "games": 20,
+          "winrate": "0%",
+          "imposter": 1,
+          "among": 400
+        },
+        {
+          "id": "6",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "7",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "8",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "9",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "10",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        }
+      ]
+    },
+    {
+      "moderator": {
+        "name": ".пикапика",
+        "avatar": "https://cdn.discordapp.com/avatars/311954767691907072/a_9f9913aa9c50ac01d2df944b48f19efd.png?size=4096"
+      },
+      "id": "3",
+      "code": "FGAGAT",
+      "imposters": ["discord_id", "discord_id"],
+      "server": "EUROPE",
+      "players": [
+        {
+          "id": "1",
+          "name": "Villka",
+          "avatar": "https://cdn.discordapp.com/avatars/294844815206514689/41a2e3b29d9b00d28ca5a3c30dad41c9.png?size=128",
+          "games": 20,
+          "winrate": "0%",
+          "imposter": 1,
+          "among": 400
+        },
+        {
+          "id": "2",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "3",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "4",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "5",
+          "name": "Villka",
+          "avatar": "https://cdn.discordapp.com/avatars/294844815206514689/41a2e3b29d9b00d28ca5a3c30dad41c9.png?size=128",
+          "games": 20,
+          "winrate": "0%",
+          "imposter": 1,
+          "among": 400
+        },
+        {
+          "id": "6",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "7",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "8",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "9",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "10",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        }
+      ]
+    },
+    {
+      "moderator": {
+        "name": ".vill1ka",
+        "avatar": "https://cdn.discordapp.com/avatars/311954767691907072/a_9f9913aa9c50ac01d2df944b48f19efd.png?size=4096"
+      },
+      "id": "4",
+      "code": "FGAGAT",
+      "imposters": ["discord_id", "discord_id"],
+      "server": "EUROPE",
+      "players": [
+        {
+          "id": "1",
+          "name": "Villka",
+          "avatar": "https://cdn.discordapp.com/avatars/294844815206514689/41a2e3b29d9b00d28ca5a3c30dad41c9.png?size=128",
+          "games": 20,
+          "winrate": "100%",
+          "imposter": 1,
+          "among": 400
+        },
+        {
+          "id": "2",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "3",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "4",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "5",
+          "name": "Villka",
+          "avatar": "https://cdn.discordapp.com/avatars/294844815206514689/41a2e3b29d9b00d28ca5a3c30dad41c9.png?size=128",
+          "games": 20,
+          "winrate": "0%",
+          "imposter": 1,
+          "among": 400
+        },
+        {
+          "id": "6",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "7",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "8",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "9",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        }
+      ]
+    },
+    {
+      "moderator": {
+        "name": ".пикапика",
+        "avatar": "https://cdn.discordapp.com/avatars/311954767691907072/a_9f9913aa9c50ac01d2df944b48f19efd.png?size=4096"
+      },
+      "id": "5",
+      "code": "FGAGAT",
+      "imposters": ["discord_id", "discord_id"],
+      "server": "EUROPE",
+      "players": [
+        {
+          "id": "1",
+          "name": "Villka",
+          "avatar": "https://cdn.discordapp.com/avatars/294844815206514689/41a2e3b29d9b00d28ca5a3c30dad41c9.png?size=128",
+          "games": 20,
+          "winrate": "0%",
+          "imposter": 1,
+          "among": 400
+        },
+        {
+          "id": "2",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "3",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "4",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        }
+      ]
+    },
+    {
+      "moderator": {
+        "name": ".пикапика",
+        "avatar": "https://cdn.discordapp.com/avatars/311954767691907072/a_9f9913aa9c50ac01d2df944b48f19efd.png?size=4096"
+      },
+      "id": "6",
+      "code": "FGAGAT",
+      "imposters": ["discord_id", "discord_id"],
+      "server": "EUROPE",
+      "players": [
+        {
+          "id": "1",
+          "name": "Villka",
+          "avatar": "https://cdn.discordapp.com/avatars/294844815206514689/41a2e3b29d9b00d28ca5a3c30dad41c9.png?size=128",
+          "games": 20,
+          "winrate": "0%",
+          "imposter": 1,
+          "among": 400
+        },
+        {
+          "id": "2",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "3",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "4",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        }
+      ]
+    },
+    {
+      "moderator": {
+        "name": ".пикапика",
+        "avatar": "https://cdn.discordapp.com/avatars/311954767691907072/a_9f9913aa9c50ac01d2df944b48f19efd.png?size=4096"
+      },
+      "id": "7",
+      "code": "FGAGAT",
+      "imposters": ["discord_id", "discord_id"],
+      "server": "EUROPE",
+      "players": [
+        {
+          "id": "1",
+          "name": "Villka",
+          "avatar": "https://cdn.discordapp.com/avatars/294844815206514689/41a2e3b29d9b00d28ca5a3c30dad41c9.png?size=128",
+          "games": 20,
+          "winrate": "0%",
+          "imposter": 1,
+          "among": 400
+        },
+        {
+          "id": "2",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "3",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        },
+        {
+          "id": "4",
+          "name": "whitered",
+          "avatar": "https://cdn.discordapp.com/avatars/540496287422873602/a_7eed803ac7d03183ea37edec349eb710.gif?size=128",
+          "games": 932,
+          "winrate": "100%",
+          "imposter": 100,
+          "among": 5996
+        }
+      ]
+    }
+  ]
+}

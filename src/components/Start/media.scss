@@ -1,0 +1,242 @@
+$maxWidth: 1780;
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+  @media (max-width: 767px) {
+    font-size: calc(
+      #{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxWidth})
+    );
+  }
+  @media (min-width: 767px) {
+    font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxWidth}));
+  }
+}
+
+//media
+
+
+
+@media (max-width: 1724px) {
+  .start {
+    .moderator {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .start {
+    .room {
+      &__disconnect {
+        display: none;
+      }
+    }
+    .players {
+      .playersP {
+        width: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 711px) {
+  .start {
+    &__row {
+      padding: 25px 0px;
+    }
+    .visionPlayer {
+      &__code {
+        margin-bottom: 30px;
+        flex: 0 0 auto;
+        p {
+          @include adaptiv-font(130, 30);
+        }
+      }
+    }
+    .room {
+      min-height: 200px;
+      &__number {
+        max-width: 400px;
+        min-width: 50px;
+        flex: 1 1 auto;
+      }
+      &__buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10px;
+        .button_purple {
+          margin-bottom:10px ;
+        }
+      }
+    }
+    .end_game {
+      &__button {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 630px) {
+  .visionPlayer {
+    &__code {
+    }
+  }
+  .start {
+    &__content {
+    }
+    .room {
+      &__code {
+      }
+      &__disconnect {
+      }
+      &__buttons {
+
+        .button_purple {
+        }
+      }
+    }
+    .end_game {
+      &__up {
+        max-width: 400px;
+        height: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 0px;
+      }
+      &__button {
+        margin-bottom: 10px;
+      }
+    }
+    .moderator {
+      height: 170px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .players {
+      &__options {
+        justify-content: space-around;
+        padding: 10px 0px;
+      }
+    }
+    .Checkbox_room {
+      &__check {
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .start {
+    margin: 0px;
+    &__content {
+      margin-bottom: 0px;
+      padding: 20px;
+    }
+    .room {
+      padding: 10px;
+      &__number {
+        width: 130px;
+        flex: 0 1 auto;
+      }
+      &__buttons {
+        margin: 0px;
+        .button_purple {
+        }
+      }
+    }
+    .Checkbox_room {
+      &__check {
+        padding: 0px 10px;
+      }
+    }
+    .end_game {
+      padding: 30px 10px 30px 10px;
+    }
+    .moderator {
+      min-width: 200px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .players {
+      &__option {
+        margin-right: 0px;
+        font-size: 13px;
+      }
+      &__title {
+        padding: 10px;
+        font-size: 24px;
+      }
+      &__categories {
+        padding: 10px 5px;
+      }
+      .playersP {
+        margin: 0px;
+      }
+      &__player {
+        padding: 10px 5px;
+      }
+      &__stats {
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .start {
+    .players {
+      &__profile {
+        // align-items: center;
+        flex-direction: column-reverse;
+      }
+      &__row {
+        align-items: center;
+      }
+      &__categories {
+        padding: 10px 5px;
+      }
+      .playersP {
+        margin: 0px 0px;
+        @include adaptiv-font(15, 10);
+        width: 47px;
+        padding: 0px 2px;
+      }
+      &__stats {
+        .playersP {
+          margin: 0px 0px;
+          @include adaptiv-font(15, 10);
+          // width: 40px;
+          padding: 0px 2px;
+        }
+      }
+      &__row {
+        display: none;
+      }
+      &__player {
+        padding: 10px 5px;
+      }
+      &__stats {
+        p {
+          width: 47px;
+        }
+      }
+    }
+  }
+}
+
+
+
+//media

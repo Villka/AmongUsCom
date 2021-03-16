@@ -1,0 +1,50 @@
+.wrap {
+    // width: 650px;
+    // height: 132px;
+    width: 637px;
+    // margin-left: 74px;
+    // margin-right: 100px;
+    //overflow: hidden;
+    //margin-left: auto;
+    width: max-content;
+}
+
+.stats {
+    //margin-left: auto;
+    //border-radius: 30px;
+    mask: url(./img/game_history.png) no-repeat;
+    //overflow: hidden;
+    //padding: 30px;
+    width: 800px;
+    height: 500px;
+
+    background-color: black;
+
+    position: relative;
+    right: -67px;
+    top: -47px;
+    //clip-path: circle(40% at 75% 5%);
+    .circle {
+        position: relative;
+        right: -300px;
+        top: -400px;
+        width: 567px;
+        height: 567px;
+        border-radius: 50%;
+        background-color: #725DF1;
+        z-index: -1;
+    }
+
+    .title {
+        text-align: right;
+        padding-right: 100px;
+        padding-top: 80px;
+        font-size: 36px;
+        color: white;
+    }
+
+    .layout {
+        text-align: center;
+        margin: 0 auto;
+    }
+}

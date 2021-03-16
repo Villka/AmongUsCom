@@ -1,0 +1,57 @@
+//connecting mixins
+@import "mixins";
+//connecting mixins
+
+//connecting fonts
+@import "fonts";
+//connecting fonts
+
+//connecting normalize
+@import "normalize";
+//connecting normalize
+
+//connecting mix
+@import "Modifier";
+//connecting mix
+
+//connecting fonts
+$fontFamily: "Montserrat";
+//connecting fonts
+
+// classic
+body {
+  background-color: #eee8f2;
+  font-family: $fontFamily;
+}
+
+.wrapper {
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-body {
+  height: 100%;
+  max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+  flex: 1 1 auto;
+  max-width: 100%;
+  min-height: 100%;
+  //margin-bottom: 100px;
+}
+// classic
+
+//connecting media
+@import "media";
+//connecting media

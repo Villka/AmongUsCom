@@ -1,0 +1,34 @@
+// header
+
+.header {
+  &__bell {
+    margin-right: 20px;
+  }
+
+  &__notify {
+    .notify {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      position: absolute;
+      left: 192px;
+      top: 7px;
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+
+      p {
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+// header
+
+//connecting media
+@import "../../media.scss";
+//connecting media
